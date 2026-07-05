@@ -1,0 +1,9 @@
+[package]
+name = "easy-rust"
+version = "0.1.0"
+edition = "2021"
+
+# src/bin/ 안의 .rs 파일은 Cargo가 자동으로 실행 바이너리로 등록합니다.
+# 새 예제를 추가할 때 이 파일을 수정할 필요가 없습니다.
+#   새 파일:  src/bin/1_6_어쩌구.rs  (fn main() 포함)
+#   실행:     cargo run --bin 1_6_어쩌구
